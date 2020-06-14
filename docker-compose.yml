@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+
+  angularwithdocker:
+    container_name: flamboyant_fermat
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - '4201:4200'
