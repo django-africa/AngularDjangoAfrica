@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angularwithdocker"
+    }
+  },
+  "defaultProject": "angularwithdocker",
+  "cli": {
+    "analytics": "c47129f9-ee0f-4f7c-b957-d03c76bb3870"
+  }
 }
